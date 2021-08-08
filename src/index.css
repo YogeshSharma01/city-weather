@@ -1,13 +1,61 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  font-family: 'Jost', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box{
+  background:url('https://i.pinimg.com/originals/8e/a3/f8/8ea3f820b1ef8cf4b04cecb098c43709.gif') ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  font-size: 5vh;
+}
+.inputField{
+    width: 30vh;
+    height: 7vh;
+    border: 3px solid #84d0f9;
+    border-radius: 4vh;
+    margin-top: 2vh;
+    background: transparent;
+}
+::placeholder {
+  font-size: 20px;
+  opacity: 1; 
+  color: #f3a6ba;
+  text-align: center;
+}
+.info{
+  background: -webkit-linear-gradient( #59d1e3,#e179b8,#ecc2da,#eee3d2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fab{
+  
+  color: #92a3aa;
+}
+.cloud-img{
+  height: 22vh;
+  margin-top: 18vh;
+}
+.inputField[type="search"]
+{
+    font-size:4vh;
+    color: #45ade5;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .inputData{
+    padding-top: 8vh;
+  }
+  .cloud-img{
+    height: 22vh;
+    margin-top: 11vh;
+  }
 }
